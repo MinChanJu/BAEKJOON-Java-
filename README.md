@@ -2,5 +2,5 @@
 
 ## 단계별로 풀어보기 (https://www.acmicpc.net/step)
 - 백준 : https://www.acmicpc.net/user/mcj0207
-- 현재 티어 : S4 (https://solved.ac/profile/mcj0207)
+- 현재 티어 : S1 (https://solved.ac/profile/mcj0207)
 - 이메일 : mcj00220077@gmail.com
