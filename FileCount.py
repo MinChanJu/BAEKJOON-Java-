@@ -18,6 +18,6 @@ def count_files_in_step_dirs():
             file_count = len([file for file in os.listdir(item) if os.path.isfile(os.path.join(item, file)) and file.endswith(".java")])
             f.write(f"{item} : {file_count} / {numbers_list[num-1]}\n")
             total_count += file_count
-        f.write(f"총 파일 수: {total_count}\n")
+        f.write(f"\n총 파일 수: {total_count}\n")
 
 count_files_in_step_dirs()
