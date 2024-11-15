@@ -1,19 +1,13 @@
-import java.io.*;
+import java.util.*;
 
 public class test {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int N = Integer.parseInt(br.readLine());
-
-        int dp[] = new int[N+2];
-        dp[1] = 1;
-        dp[2] = 2;
-
-        for (int i = 3; i <= N; i++) {
-            dp[i] = (dp[i-1] + dp[i-2])%15746;
-        }
-
-        System.out.println(dp[N]);
+    public static void main(String[] args) {
+        int[][] tmp = {{1,2},{1,3}};
+        int n = tmp[0].length;
+        Set<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(4);
+        Map<Integer, Integer> map = new HashMap<>();
+        System.out.println(n);
     }
 }
