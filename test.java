@@ -8,6 +8,7 @@ public class test {
         set.add(1);
         set.add(4);
         Map<Integer, Integer> map = new HashMap<>();
+        map.put(1, 3);
         System.out.println(n);
     }
 }
