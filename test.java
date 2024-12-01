@@ -9,6 +9,7 @@ public class test {
         set.add(4);
         Map<Integer, Integer> map = new HashMap<>();
         map.put(1, 3);
+        System.out.println("다시 한번");
         System.out.println(n);
     }
 }
