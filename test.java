@@ -1,15 +1,18 @@
+import java.io.*;
 import java.util.*;
 
 public class test {
-    public static void main(String[] args) {
-        int[][] tmp = {{1,2},{1,3}};
-        int n = tmp[0].length;
-        Set<Integer> set = new HashSet<>();
-        set.add(1);
-        set.add(4);
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1, 3);
-        System.out.println("다시 한번");
-        System.out.println(n);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
+
+        Map<Integer, Integer> dic = new HashMap<>();
+        int x = Integer.parseInt(br.readLine());
+        dic.put(x,1);
+        sb.append(dic.get(x));
+
+        bw.write(sb.toString());
+        bw.flush();
     }
 }
